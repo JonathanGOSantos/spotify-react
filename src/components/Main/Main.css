@@ -1,0 +1,21 @@
+.c-main {
+  flex: 1;
+  height: calc(100svh - var(--footer-height) - 1.5rem);
+  /* overflow: hidden; */
+  background-color: var(--bg-primary);
+  border-radius: var(--radius);
+}
+.c-main__content {
+  height: calc(100% - var(--header-height));
+  padding: calc(2.5 * var(--padding)) calc(2.5 * var(--padding));
+  color: var(--light);
+
+  overflow: auto;
+}
+
+.c-main__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  padding: var(--gap) 0 calc(var(--gap) * 2);
+}
